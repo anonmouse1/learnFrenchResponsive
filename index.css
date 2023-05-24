@@ -1,0 +1,248 @@
+body {
+  color: #2b283a;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+/* ----- TYPOGRAPHY ----- */
+
+h1,
+h3 {
+  margin: 0;
+}
+
+h1 {
+  color: whitesmoke;
+  font-size: 1.75rem;
+}
+
+h2 {
+  color: #03045e;
+  font-size: 1.375rem;
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+p {
+  line-height: 1.5;
+}
+blockquote {
+  border-left: 4px solid #333; /* Add a left border */
+  padding-left: 10px; /* Add some padding */
+  font-style: italic; /* Italicize the quote */
+  margin: 10px 0; /* Add margin for spacing */
+}
+
+cite {
+  display: block;
+  font-size: 14px; /* Adjust the font size of the source */
+  margin-top: 5px; /* Add spacing between the quote and the source */
+}
+
+.subheading {
+  display: block;
+  font-size: 1rem;
+  color: #ff758f;
+  text-shadow: #2b283a 1px 1px 0;
+}
+
+.section-two h2 {
+  color: inherit;
+}
+.tldr ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.tldr li {
+  padding: 0.5em 0;
+}
+/* ----- LINKS ----- */
+
+a {
+  color: #ef5839;
+  text-decoration: underline dotted;
+}
+
+.section-two-link {
+  color: #03045e;
+  text-decoration: underline dotted;
+}
+
+.section-two a {
+  background-color: #03045e;
+}
+
+a:hover,
+a:active {
+  color: #d4b44c;
+}
+
+.btn {
+  font-size: 1.125rem;
+  text-align: center;
+  font-weight: 500;
+  text-decoration: none;
+  display: block;
+  padding: 0.5em 1em;
+  margin-bottom: 1em;
+  border-radius: 4.6px;
+}
+
+.btn-dark {
+  color: whitesmoke;
+  background: #ef233c;
+}
+
+.btn-mid {
+  color: whitesmoke;
+  background: #ff5a5f;
+}
+
+.btn-mid:hover,
+.btn-mid:active {
+  color: #03045e;
+  background-color: #bde0fe;
+}
+
+.btn-dark:hover,
+.btn-dark:active {
+  color: #03045e;
+  background-color: #ffcad4;
+}
+
+/* ----- LAYOUT ----- */
+
+header,
+section,
+footer {
+  padding: 1.25em 0;
+}
+
+header,
+.section-two {
+  background-color: #3a86ff;
+}
+
+.section-two {
+  color: whitesmoke;
+}
+
+.container {
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.main-image {
+  width: 60%;
+  display: block;
+  max-width: 640px;
+  margin: 0 auto 2em;
+}
+
+.section-two-image-container {
+  display: flex;
+}
+
+.feature-image {
+  width: 100%;
+  border-radius: 4.6px;
+  padding-bottom: 2em;
+}
+figure {
+  position: relative; /* Create a positioning context */
+}
+
+figcaption {
+  position: absolute; /* Position the caption */
+  bottom: 0; /* Place it at the bottom of the figure */
+  width: 100%; /* Make it span the full width of the figure */
+  text-align: center; /* Center-align the text */
+  background-color: #888; /* Set the background color to grey */
+  color: #fff; /* Set the text color to white */
+  padding: 5px; /* Add padding for spacing */
+}
+
+footer {
+  text-align: center;
+  color: #03045e;
+}
+
+/* ----- NAVIGATION ----- */
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.125rem;
+  padding: 0.85em 0;
+  display: block;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* ----- MEDIA QUERIES ----- */
+
+@media (max-width: 767px) {
+  header {
+    text-align: center;
+  }
+
+  nav {
+    margin-top: 1.5em;
+  }
+
+  li:not(:last-child) {
+    border-bottom: 1px dotted #a190b6;
+  }
+}
+
+@media (min-width: 768px) {
+  header,
+  section,
+  footer {
+    padding: 2.875em 0;
+  }
+
+  header .container,
+  nav ul {
+    display: flex;
+  }
+
+  header .container {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav li {
+    margin-left: 1.25em;
+  }
+
+  .btn {
+    display: inline-block;
+    margin-right: 0.5em;
+  }
+
+  h1 {
+    font-size: 2.25rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  .subheading {
+    font-size: 1.25rem;
+  }
+
+  p {
+    font-size: 1.125rem;
+  }
+}
