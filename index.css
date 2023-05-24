@@ -138,7 +138,7 @@ header,
 }
 
 .main-image {
-  width: 60%;
+  width: 80%;
   display: block;
   max-width: 640px;
   margin: 0 auto 2em;
@@ -162,8 +162,8 @@ figcaption {
   bottom: 0; /* Place it at the bottom of the figure */
   width: 100%; /* Make it span the full width of the figure */
   text-align: center; /* Center-align the text */
-  background-color: #888; /* Set the background color to grey */
-  color: #fff; /* Set the text color to white */
+  background-color: none; /* Set the background color to none*/
+  color: #888; /* Set the text color to grey */
   padding: 5px; /* Add padding for spacing */
 }
 
