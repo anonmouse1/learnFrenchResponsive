@@ -133,6 +133,7 @@ header,
   display: block;
   max-width: 640px;
   margin: 0 auto 2em;
+  padding-bottom: 2em;
 }
 
 .section-two-image-container {
@@ -156,6 +157,7 @@ figcaption {
   background-color: none; /* Set the background color to none*/
   color: #5c677d; /* Set the text color to grey */
   padding: 5px; /* Add padding for spacing */
+  font-size: 0.85em;
 }
 
 a {
