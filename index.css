@@ -62,18 +62,9 @@ cite {
 }
 /* ----- LINKS ----- */
 
-a {
-  color: #ef5839;
-  text-decoration: underline dotted;
-}
-
 .section-two-link {
   color: #03045e;
   text-decoration: underline dotted;
-}
-
-.section-two a {
-  background-color: #03045e;
 }
 
 a:hover,
@@ -99,7 +90,7 @@ a:active {
 
 .btn-mid {
   color: whitesmoke;
-  background: #ff5a5f;
+  background: #03045e;
 }
 
 .btn-mid:hover,
@@ -163,8 +154,15 @@ figcaption {
   width: 100%; /* Make it span the full width of the figure */
   text-align: center; /* Center-align the text */
   background-color: none; /* Set the background color to none*/
-  color: #888; /* Set the text color to grey */
+  color: #5c677d; /* Set the text color to grey */
   padding: 5px; /* Add padding for spacing */
+}
+
+a {
+  text-decoration: none; /* Remove underline from links */
+  font-size: 1.1em; /* Set font size */
+  color: #5c677d; /* Set font color */
+  background-color: none;
 }
 
 footer {
